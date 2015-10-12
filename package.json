@@ -1,0 +1,30 @@
+{
+  "title": "Phishing Detector",
+  "name": "phishing_detector",
+  "version": "1.0.0",
+  "id": "j581-qXupwj666mBCgg@jetpack",
+  "description": "An dd-on to detect and warn the user if a web site is a phishing one.",
+  "main": "lib/main.js",
+  "preferences": [
+    {
+      "name": "weka",
+      "title": "Weka Analyzer",
+      "description": "Activate/Deactivate Weka Analyzer",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "name": "reset",
+      "title": "Reset storage?",
+      "description": "Do you want to reset the storage?",
+      "type": "control",
+      "label": "Reset"
+    }
+  ],
+  "author": "Gabriele Lagana",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT"
+}
